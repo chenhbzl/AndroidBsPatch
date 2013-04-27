@@ -1,0 +1,11 @@
+This is bsdiff-4.3 from http://www.daemonology.net/bsdiff/.
+
+This file, the Android.mk makefile, and the empty
+MODULE_LICENSE_BSD_LIKE file were added.
+
+Changes in the source are marked with "// android" comments.
+
+由 彭昌虎，韩全威合作修改为android下可用的二进制差分升级工具
+联系方式 
+weibo.com/hanquanwei,twitter.com/hanquanwei
+pengchanghu@koudai.com

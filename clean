@@ -1,0 +1,9 @@
+ant clean
+echo "============ndk-build==========="
+ndk-build
+echo "============ant debug==========="
+ant debug
+echo "============uninstall com.geili.koudai.util==========="
+adb uninstall com.geili.koudai.util
+echo "============install com.geili.koudai.util==========="
+adb install bin/HelloJni-debug.apk
